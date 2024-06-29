@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+  font-weight: normal;
+}
+
+button {
+  cursor: pointer;
+}
+
+input, button {
+  padding: 8px;
+  margin: 8px 0;
+}
+
+input[type="text"], input[type="password"], textarea {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.task-item {
+  border: 1px solid #ddd;
+  padding: 16px;
+  margin: 8px 0;
+  border-radius: 4px;
+}
